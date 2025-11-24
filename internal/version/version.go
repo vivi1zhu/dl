@@ -430,7 +430,7 @@ func versionArchiveURL(version string) string {
 	if goos == "linux" && runtime.GOARCH == "arm" {
 		arch = "armv6l"
 	}
-	return "https://dl.google.com/go/" + version + "." + goos + "-" + arch + ext
+	return "https://golang.google.cn/go/" + version + "." + goos + "-" + arch + ext
 }
 
 const caseInsensitiveEnv = runtime.GOOS == "windows"
